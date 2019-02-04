@@ -40,7 +40,7 @@ Setting the reference speed of the train works in the following way.
 ### Task List
 
 * -[x] 1. elem Volt egyszer egy óriási nagy kisegér
-* -[ ] SZembejött vele a bölcs lézer
+* -[x] SZembejött vele a bölcs lézer
 * -[x] Megette a rókát
 * -[ ] Szeretem a szilvas **buktát**
 
