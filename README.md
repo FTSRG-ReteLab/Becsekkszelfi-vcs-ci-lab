@@ -1,8 +1,8 @@
-# Train Speed Controller
+### Train Speed Controller
 
 This is a sample application for the verification laboratory.
 
-## Getting started
+#### Getting started
 
 * The application is implemented in Java.
 * The project can be built using [Gradle](https://gradle.org/).
@@ -36,6 +36,17 @@ Setting the reference speed of the train works in the following way.
 * The user can set the position of a joystick, which can be zero or a positive/negative number.
 * In each time unit, the controller adds the position of the joystick to the current reference speed. Therefore the reference speed does not change if the position is zero, it is incremented if the position is positive and it is decremented if the position is negative.
 * After each change, the speed limit is checked and enforced.
+
+### Task List
+
+-[x] 1. elem Volt egyszer egy óriási nagy kisegér
+-[] SZembejött vele a bölcs lézer
+-[x] Megette a rókát
+-[] Szeretem a szilvas **buktát**
+
+
+
+
 
 The figure below illustrates this behavior using an example.
 
