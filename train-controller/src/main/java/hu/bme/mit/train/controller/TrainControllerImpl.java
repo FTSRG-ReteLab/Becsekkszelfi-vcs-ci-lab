@@ -8,7 +8,7 @@ public class TrainControllerImpl implements TrainController {
 	private int referenceSpeed = 0;
 	private int speedLimit = 0;
 
-	public public TrainControllerImpl() {
+	public TrainControllerImpl() {
 		// TODO Auto-generated constructor stub
 		
 		thread = new Thread();
