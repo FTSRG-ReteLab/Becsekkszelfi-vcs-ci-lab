@@ -32,6 +32,15 @@ public void test4() {
 	Assert.assertEquals(speedLimit, 10);
 }
 	
-  
+ @Test
+ public void test5() {
+	 TrainSensorImpl sensor = mock(TrainSensorImpl.class);
+	 TrainUserImpl user = mock(TrainUserImpl.class);
+	 when(sensor.overrideSpeedLimit(-1));
+	 asserTrue(user.getAlarmState);
+	 
+	 
+	 
+ }
     
  
