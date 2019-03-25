@@ -11,7 +11,7 @@ public class TrainControllerImpl implements TrainController {
 	public TrainControllerImpl() {
 		// TODO Auto-generated constructor stub
 		
-		thread = new Thread();
+		Thread thread = new Thread();
 		public void run(){
 			thread.run();
 			try {
