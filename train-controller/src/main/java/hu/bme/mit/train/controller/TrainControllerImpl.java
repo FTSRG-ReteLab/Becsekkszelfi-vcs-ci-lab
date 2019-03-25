@@ -20,7 +20,7 @@ public class TrainControllerImpl implements TrainController {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-		
+		}
 		};
 		
 		
