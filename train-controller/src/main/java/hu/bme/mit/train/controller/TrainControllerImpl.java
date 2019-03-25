@@ -11,7 +11,7 @@ public class TrainControllerImpl implements TrainController {
 	public TrainControllerImpl() {
 		// TODO Auto-generated constructor stub
 		
-		Thread thread = new Thread();
+		/*Thread thread = new Thread();
 		public void run(){
 			thread.run();
 			try {
@@ -21,8 +21,10 @@ public class TrainControllerImpl implements TrainController {
 				e.printStackTrace();
 			}
 		
-		};
+		};*/
 		
+		Timer timer = new Timer();
+		timer.schedule(followSpeed,1000)
 		
 	}
 
