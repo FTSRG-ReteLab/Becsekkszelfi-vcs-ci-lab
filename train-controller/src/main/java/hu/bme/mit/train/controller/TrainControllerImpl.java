@@ -12,19 +12,7 @@ public class TrainControllerImpl implements TrainController {
 	private int speedLimit = 0;
 
 	public TrainControllerImpl() {
-		// TODO Auto-generated constructor stub
-		
-		/*Thread thread = new Thread();
-		public void run(){
-			thread.run();
-			try {
-				followSpeed();
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-		
-		};*/
+
 		
 		Timer timer = new Timer();
 		timer.scheduleAtFixedRate(new TimerTask(){
