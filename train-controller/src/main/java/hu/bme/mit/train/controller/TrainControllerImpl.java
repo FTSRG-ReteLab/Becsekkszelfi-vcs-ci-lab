@@ -7,6 +7,20 @@ public class TrainControllerImpl implements TrainController {
 	private int step = 0;
 	private int referenceSpeed = 0;
 	private int speedLimit = 0;
+	
+	public TrainControllerImpl(){
+		thread = new thread(){
+		public void run(){
+		thread.run();
+		try{
+		followSpeed();
+			thread.sleep(1500);
+		} catch(InterruptedException e) { 
+		e.printStackTrace();
+					}	
+				}	
+			};
+		}
 
 	public public TrainControllerImpl() {
 		// TODO Auto-generated constructor stub
