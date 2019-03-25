@@ -12,7 +12,7 @@ public class TrainControllerImpl implements TrainController {
 		// TODO Auto-generated constructor stub
 		
 		thread = new Thread();
-		public void run() {
+		
 			thread.run();
 			try {
 				followSpeed();
@@ -20,7 +20,7 @@ public class TrainControllerImpl implements TrainController {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-		}
+		
 		
 		
 		
